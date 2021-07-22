@@ -6,8 +6,8 @@ print(os)
 achitecture=platform.architecture()
 print(achitecture)
 
-mc=platform.node()
-print(mc)
+node=platform.node()
+print(node)
 
 ver=platform.version()
 print(ver)
@@ -15,3 +15,7 @@ sys=platform.system()
 print(sys)
 proc=platform.processor()
 print(proc)
+
+mc=platform.machine()
+print(mc)
+
